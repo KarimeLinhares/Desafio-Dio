@@ -1,5 +1,5 @@
 # Desafio-Dio
-<img width="200" src="src/imagens/dio logo.png">
+<img width="100" src="src/imagens/dio logo.png">
 
 Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
 1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
