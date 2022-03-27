@@ -2,5 +2,7 @@
 
 ###Primeiro Repositório (Desafio de Projeto sobre Git/GitHub)
 
-[Desafio 1](imagens/desafio 1.png)
+<p align="center">
+  <img width="400" src="imagens/desafio 1.png">
+ </p>
 
