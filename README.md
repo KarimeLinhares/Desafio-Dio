@@ -1,7 +1,7 @@
 # Desafio-Dio
 
 Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
-1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
+1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
 2. Desafio de Projeto: Recriando a Interface do Netflix
 3. Desafio de Código: Desafios Impulso Iniciante - JavaScript
 4. Desafio de Código: Desafios Impulso Intermediario - JavaScript
@@ -12,12 +12,12 @@ Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso 
 9. Desafio de Código: Desafios Impulso Intermediários - C#
 
 E de anotações e comentários de aulas realizadas.
-* Boas-vindas ao Bootcamp - Impulso Fullstack Web Developer
-* Mentoria #1: Aula Inaugural - Bootcamp Impulso Fullstack Web Developer
-* Pensamento Computacional
-* Lógica de Programação Essencial
-* Introdução ao Git e ao GitHub
-* Projetos ágeis com SCRUM
+* Boas-vindas ao Bootcamp - Impulso Fullstack Web Developer :white_check_mark:
+* Mentoria #1: Aula Inaugural - Bootcamp Impulso Fullstack Web Developer :white_check_mark:
+* Pensamento Computacional :white_check_mark:
+* Lógica de Programação Essencial :white_check_mark:
+* Introdução ao Git e ao GitHub :white_check_mark:
+* Projetos ágeis com SCRUM :white_check_mark:
 * Primeiros passos para desenvolvimento web
 * Introdução a criação de websites com HTML5 e CSS3
 * Construindo páginas para internet com Bootstrap
@@ -55,6 +55,6 @@ E de anotações e comentários de aulas realizadas.
 ## Desafio de Projeto: Primeiro Repositório (Desafio de Projeto sobre Git/GitHub)
 
 <p align="center">
-  <img width="600" src="imagens/desafio 1.png">
+  <img width="600" src="src/imagens/desafio 1.png">
  </p>
 
