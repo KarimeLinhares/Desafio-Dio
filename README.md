@@ -52,7 +52,7 @@ E de anotações e comentários de aulas realizadas.
 * Configuração da arquitetura back-end com .NET Core
 
 
-## Primeiro Repositório (Desafio de Projeto sobre Git/GitHub)
+## Desafio de Projeto: Primeiro Repositório (Desafio de Projeto sobre Git/GitHub)
 
 <p align="center">
   <img width="600" src="imagens/desafio 1.png">
