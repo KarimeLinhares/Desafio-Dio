@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" src="src/imagens/diologo.png">
+  <a href="https://www.dio.me/"><img width="400" src="src/imagens/diologo.png">
 </p>
 
 # Desafio-Dio  
