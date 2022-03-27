@@ -2,7 +2,7 @@
   <a href="https://www.dio.me/"><img width="400" src="src/imagens/diologo.png">
 </p>
 
-# Desafio-Dio  
+# Descrição  
 
 Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
 1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
