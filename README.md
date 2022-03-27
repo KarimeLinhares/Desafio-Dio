@@ -1,5 +1,7 @@
 # Desafio-Dio
 
+Repositório para inclusão de projetos a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
+
 ## Primeiro Repositório (Desafio de Projeto sobre Git/GitHub)
 
 <p align="center">
