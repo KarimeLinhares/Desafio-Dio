@@ -22,7 +22,7 @@ E de anotações e comentários de aulas realizadas.
 * Lógica de Programação Essencial :white_check_mark:
 * Introdução ao Git e ao GitHub :white_check_mark:
 * Projetos ágeis com SCRUM :white_check_mark:
-* Primeiros passos para desenvolvimento web
+* Primeiros passos para desenvolvimento web :white_check_mark:
 * Introdução a criação de websites com HTML5 e CSS3
 * Construindo páginas para internet com Bootstrap
 * Coleções
