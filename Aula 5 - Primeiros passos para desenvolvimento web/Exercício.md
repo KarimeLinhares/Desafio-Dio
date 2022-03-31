@@ -38,6 +38,7 @@ Quando consultado um CEP de formato válido, porém inexistente, por exemplo: "9
 Existem necessidades, por exemplo um cadastramento online onde o cliente desconhece o CEP da sua rua e será necessário realizar uma pesquisa para verificar a existência de um CEP que corresponda ao endereço. Para consultar um CEP na base de dados são necessários três parâmetros obrigatórios (UF, Cidade e Logradouro), sendo que para Cidade e Logradouro também é obrigatório um número mínimo de três caracteres a fim de evitar resultados muito abrangentes.
 Identico a consulta por CEP, na pesquisa por endereço também é necessário informar o formato do retorno que deve ser "json" ou "xml". O resultado será ordenado pela proximidade do nome do logradouro e possui limite máximo de 50 (cinquenta) CEPs. Desta forma, quanto mais específico os parâmentros de entrada maior será a precisão do resultado.
 
+
 Exemplos de pesquisa por endereço:
 viacep.com.br/ws/RS/Porto Alegre/Domingos/json/
 viacep.com.br/ws/RS/Porto Alegre/Domingos Jose/json/
