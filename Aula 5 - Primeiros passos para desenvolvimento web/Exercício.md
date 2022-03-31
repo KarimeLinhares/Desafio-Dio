@@ -39,6 +39,7 @@ Existem necessidades, por exemplo um cadastramento online onde o cliente desconh
 Identico a consulta por CEP, na pesquisa por endereço também é necessário informar o formato do retorno que deve ser "json" ou "xml". O resultado será ordenado pela proximidade do nome do logradouro e possui limite máximo de 50 (cinquenta) CEPs. Desta forma, quanto mais específico os parâmentros de entrada maior será a precisão do resultado.
 
 
+
 Exemplos de pesquisa por endereço:
 viacep.com.br/ws/RS/Porto Alegre/Domingos/json/
 viacep.com.br/ws/RS/Porto Alegre/Domingos Jose/json/
