@@ -23,7 +23,7 @@ E de anotações e comentários de aulas realizadas.
 * Introdução ao Git e ao GitHub :white_check_mark:
 * Projetos ágeis com SCRUM :white_check_mark:
 * Primeiros passos para desenvolvimento web :white_check_mark:
-* Introdução a criação de websites com HTML5 e CSS3
+* Introdução a criação de websites com HTML5 e CSS3 :white_check_mark:
 * Construindo páginas para internet com Bootstrap
 * Coleções
 * Debugging e Error Handling
