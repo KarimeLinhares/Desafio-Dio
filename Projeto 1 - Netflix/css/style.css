@@ -21,7 +21,6 @@ header .container {
     align-items: center;
     margin-top: 20px;
     padding-bottom: 10px;
-    
 }
 
 /*responsivity header*/
@@ -55,11 +54,16 @@ header nav a:hover {
 
 /*search box*/
 .search-box {
-    position: absolute;
-    top: 6%;
+    position:absolute;
+
+    top: 1%;
     left: 80%;
+    
+    top: 5%;
+    
+    
     transform: translate(-50%,-50%);
-    height: 40px;
+   
     border-radius: 40px;
 }
 
@@ -72,6 +76,7 @@ header nav a:hover {
 
 .search-box:hover > .search-btn {
     background: white;
+    
 }
 
 .search-btn {
@@ -102,7 +107,7 @@ header nav a:hover {
 }
 
 /*responsivity search box*/
-@media screen and (max-width:700px) {
+@media screen and (max-width:1230px) {
     header .search-box{
     visibility: hidden;
     }
@@ -111,10 +116,11 @@ header nav a:hover {
 /*bell button*/
 .bell-btn {
     position: absolute;
-    top: 5%;
-    left: 90%;
+  
+    top: 4%;
+    left: 87%;
     color: #eecb08;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*responsivity bell button*/
@@ -127,17 +133,16 @@ header nav a:hover {
 /*sign button*/
 .wrapper {
     position: absolute;
-    top: 5%;
-    left: 93%;
+    top: 4%;
+    left: 90%;
     color: #fff;
-    background-color: #141414;
+    
 }
 
   .button {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 10px;
-    background-color: var(--preto);
     border-radius: 2px;
     color: var(--amarelo);
     text-decoration: none;
@@ -233,7 +238,7 @@ header nav a:hover {
     margin: 0;
   }
 
-/*Form*/
+/*sign form*/
   .form-container .form-inner{
     display: flex;
     width: 200%;
@@ -284,6 +289,7 @@ header nav a:hover {
     position: relative;
     overflow: hidden;
   }
+
   form .btn .btn-layer{
     height: 100%;
     width: 300%;
@@ -293,9 +299,11 @@ header nav a:hover {
     border-radius: 5px;
     transition: all 0.4s ease;;
   }
+
   form .btn:hover .btn-layer{
     left: 0;
   }
+
   form .btn input[type="submit"]{
     height: 100%;
     width: 100%;
@@ -310,20 +318,6 @@ header nav a:hover {
     font-weight: 500;
     cursor: pointer;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*responsivity sign button*/
 @media screen and (max-width:700px) {
