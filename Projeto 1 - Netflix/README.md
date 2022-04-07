@@ -6,7 +6,7 @@
 
 Este projeto foi realizado com base no site "Netflix", desafio então proposto pelo bootcamp Impulso. Busqyei usar de minha criatividade e trazer um assunto da qual gosto muito que são os jogos RPG. E portando, o projeto funciona como uma plataforma para ver notícias e videos de jogos então lançados e que estão para ser lançados.
 
-Me utilizei de ferramentas HTML, CSS, JQuery para sua construção. Focando assim na proposta do desafio em focar no Front End.
+Me utilizei de ferramentas HTML, CSS, JavaScript para sua construção. Focando assim na proposta do desafio em focar no Front End.
 
 <p align="center">
   <img width="700" src="img/site1.gif">
