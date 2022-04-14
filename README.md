@@ -24,12 +24,12 @@ E de anotações e comentários de aulas realizadas.
 * Projetos ágeis com SCRUM :white_check_mark:
 * Primeiros passos para desenvolvimento web :white_check_mark:
 * Introdução a criação de websites com HTML5 e CSS3 :white_check_mark:
-* Construindo páginas para internet com Bootstrap
-* Coleções
-* Debugging e Error Handling
-* Javascript Assíncrono
-* Orientação a objetos
-* Map, Filter e Reduce
+* Construindo páginas para internet com Bootstrap :white_check_mark:
+* Coleções :white_check_mark:
+* Debugging e Error Handling :white_check_mark:
+* Javascript Assíncrono :white_check_mark:
+* Orientação a objetos :white_check_mark:
+* Map, Filter e Reduce :white_check_mark:
 * Manipulando a D.O.M. com JavaScript
 * Resolvendo Desafios de Código em Javascript
 * Introdução ao ReactJS
