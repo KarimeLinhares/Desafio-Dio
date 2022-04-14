@@ -6,7 +6,7 @@
 
 Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
 1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
-2. Desafio de Projeto: Recriando a Interface do Netflix
+2. Desafio de Projeto: Recriando a Interface do Netflix :white_check_mark:
 3. Desafio de Código: Desafios Impulso Iniciante - JavaScript
 4. Desafio de Código: Desafios Impulso Intermediario - JavaScript
 5. Desafio de Projeto: Criando o front-end com ReactJs
