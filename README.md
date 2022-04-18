@@ -7,7 +7,7 @@
 Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso Fullstack Web Developer.
 1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
 2. Desafio de Projeto: Recriando a Interface do Netflix :white_check_mark:
-3. Desafio de Código: Desafios Impulso Iniciante - JavaScript
+3. Desafio de Código: Desafios Impulso Iniciante - JavaScript :white_check_mark:
 4. Desafio de Código: Desafios Impulso Intermediario - JavaScript
 5. Desafio de Projeto: Criando o front-end com ReactJs
 6. Desafio de Código: Desafios Impulso Iniciante - C#
@@ -30,8 +30,8 @@ E de anotações e comentários de aulas realizadas.
 * Javascript Assíncrono :white_check_mark:
 * Orientação a objetos :white_check_mark:
 * Map, Filter e Reduce :white_check_mark:
-* Manipulando a D.O.M. com JavaScript
-* Resolvendo Desafios de Código em Javascript
+* Manipulando a D.O.M. com JavaScript :white_check_mark:
+* Resolvendo Desafios de Código em Javascript :white_check_mark:
 * Introdução ao ReactJS
 * Desenvolvimento de aplicações para internet com ReactJS
 * Práticas avançadas em projetos com ReactJS
