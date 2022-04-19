@@ -45,6 +45,10 @@ Ele possui quatro estados:
 3. Atualização
 4. Desmontagem
 
+<p align="center">
+  <img width="400" src="src/imagens/1_LI.jpg">
+</p>
+
 Nenhum componente pai ou filho devem saber se outrocomponente possui estado ou não.
 O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via props.
 
