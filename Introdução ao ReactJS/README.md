@@ -1,6 +1,6 @@
-#Introdução ao React
+# Introdução ao React
 
-##O que é React?
+## O que é React?
 
 "Uma biblioteca JavaScript para criar interfaces de usuário" - Reactjs
 
@@ -14,7 +14,7 @@ Função: criação da interface para o usuário.
 O React está preocupado apenas com o que é exibido na interface do usuário.
 
 
-##O que é JSX?
+## O que é JSX?
 
 Não é nem uma HTML e nem uma string!
 
@@ -31,12 +31,12 @@ Sintax Suggar para React.createElement
 O browser não interpreta o JSX, para isso é necessário um transpilador para que a aplicação possa entender o código. O mais utilizado é o Babel.
 
 
-##Componentes no React
+## Componentes no React
 São pequenas peças dentro de um único projeto.
 * Pode ser uma função ou uma classe.
 
 
-##Estado e Ciclo de Vida do React
+## Estado e Ciclo de Vida do React
 
 Ele possui quatro estados:
 
@@ -49,7 +49,7 @@ Nenhum componente pai ou filho devem saber se outrocomponente possui estado ou n
 O estado é apenas local ao componente e caso seja necessário enviar algum atributo para outro então é feito via props.
 
 
-##Ecossistema
+## Ecossistema
 
 1. React Router
 2. Redux
@@ -63,7 +63,7 @@ O estado é apenas local ao componente e caso seja necessário enviar algum atri
 etc...
 
 
-##O que é Webpack?
+## O que é Webpack?
 
 É um module bundler (um empacotador de módulos para aplicações JS), gera um bundler que será utilizado no HTML, em ES5.
 bundler: arquivo final onde todos os módulos são empacotados dentro de um único arquivo
@@ -76,7 +76,7 @@ Suporte:
 * JS
 * Plugins
 
-###Conceitos
+### Conceitos
 
 * Entry:
 Utilizando grafo, o Webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
@@ -100,9 +100,9 @@ Trás otimizações internas
 É executado com três plugins: UglifyjsPlugin, ModuleConcatenationPlugin e NoEmitOnErrorsPlugin
 
 
-##Configuração
+## Configuração
 
-###Criação do arquivo webpack.config.js
+### Criação do arquivo webpack.config.js
 
 ```shell
 	npm i -D webpack webpack-cli
@@ -112,7 +112,7 @@ Trás otimizações internas
 	npm i @babel/core babel-loader @babel/present-env @babel/present-react --save-dev
 ```
 
-###Criação do arquivo .babelrc
+### Criação do arquivo .babelrc
 
 ```shell
 	{
@@ -122,7 +122,7 @@ Trás otimizações internas
 	}
 ```
 
-###Instalando react-dom e babel-preset
+### Instalando react-dom e babel-preset
 
 ```shell
 	npm i react react-dom
@@ -136,7 +136,7 @@ Trás otimizações internas
 	}
 ```
 
-###Criação do aplicativo
+### Criação do aplicativo
 
 ```shell
 	src/index.js
@@ -148,7 +148,7 @@ Trás otimizações internas
 	ReactDom.render(<App />, document.getElementById("app"));
 ```
 
-###Adicionando um Dev Server
+### Adicionando um Dev Server
 
 ```shell
 	npm i -D webpack-dev-server
@@ -158,24 +158,24 @@ Trás otimizações internas
 	}
 ```
 
-###Configuração do EsLint
+### Configuração do EsLint
 
 ```shell
 	npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
 ```
 
-##Renderização Condicional
+## Renderização Condicional
 Em React, você pode criar componentes distintos que encapsulam o comportamento que você precisa. Então, você pode renderizar apenas alguns dos elementos, dependendo do estado da sua aplicação.
 
 
-##Manipulando Eventos
+## Manipulando Eventos
 Manipular eventos em elmentos React é muito semelhante a manipular eventos em elementos do DOM. Existem algumas diferenças sintáticas:
 
 * Eventos em React são nomeados usando camelCase ao invés de letras minúsculas.
 * Com o JSX você passa uma função como manipulador de eventos ao invés de um texto.
 
 
-#Pensando do Jeito React
+# Pensando do Jeito React
 
 * Comece com um Mock
 * Separe a UI em uma hierarquia de componentes
