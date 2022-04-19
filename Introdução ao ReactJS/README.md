@@ -46,7 +46,7 @@ Ele possui quatro estados:
 4. Desmontagem
 
 <p align="center">
-  <img width="400" src="images/1.png">
+  <img width="600" src="images/1.png">
 </p>
 
 Nenhum componente pai ou filho devem saber se outrocomponente possui estado ou não.
