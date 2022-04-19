@@ -32,7 +32,7 @@ E de anotações e comentários de aulas realizadas.
 * Map, Filter e Reduce :white_check_mark:
 * Manipulando a D.O.M. com JavaScript :white_check_mark:
 * Resolvendo Desafios de Código em Javascript :white_check_mark:
-* Introdução ao ReactJS
+* Introdução ao ReactJS :white_check_mark:
 * Desenvolvimento de aplicações para internet com ReactJS
 * Práticas avançadas em projetos com ReactJS
 * Introdução a Redux com ReactJS
@@ -61,4 +61,10 @@ E de anotações e comentários de aulas realizadas.
 <p align="center">
   <img width="600" src="src/imagens/desafio 1.png">
  </p>
+ 
+ ## Desafio de Projeto: Recriando a Interface do Netflix 
+ <p align="center">
+  <img width="600" src="Projeto 1 - Netflix/img/site1.png">
+ </p>
+ 
 
