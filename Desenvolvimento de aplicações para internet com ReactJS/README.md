@@ -53,10 +53,10 @@ São construídos usando funções em JS.
 ### Observações
 * A nomenclatura foi atualizada
 
-´´´shell
+```shell
 	Class components
 	Function Components
-´´´
+```
 
 * Com hooks, estados são manipuláveis em function components! E o código fica mais compacto.
 
@@ -66,35 +66,35 @@ Mantêm um estado interno
 ### Introdução
 
 * Em HTML
-´´´shell
+```shell
 	<input>
 	<textarea>
 	<select> 
 
  possuem um estado interno
-´´´
+```
 
 * Em React, podemos controlar o estado...
-´´´shell
+```shell
 	state
 	setState
-´´´
+```
 
 ### Componente controlado
 
 * Tanto ...
-´´´shell
+```shell
 	select
 	input
 	textarea
 
  aceitam um atributo value
-´´´
+```
 
 * Podemos mudar esse valor usando o atributo
-´´´shell
+```shell
 	onChange
-´´´
+```
 
 ### Componente não-controlado
 A tag é read-only
@@ -168,10 +168,10 @@ Em React, adiciona na camada de Viem 3 novos conceitos para conectar a View à s
 
 1. Instalação
 
-´´´shell
+```shell
 	npm install react-redux
 	npm install --save-dev redux-devtools
-´´´
+```
 
 
 ## Comunicação avançada entre aplicações
@@ -210,9 +210,9 @@ Algumas diferenças...
 
 #### instalação
 
-´´´shell
+```shell
 	yarn add axios
-´´´
+```
 
 #### Get
 #### Post
@@ -243,13 +243,13 @@ Você consegue usando o shouldComponentUpdate ou React.PureComponent.
 * Solução
 1. Evitar mutar valores ou estado
 
-´´´shell
+```shell
 	handleClick() {
 		this.setState(state => ({
 			words: [...state.words, 'marklar'],
 		}));
 	};
-´´´
+```
 
 2. Usar biblioteca que forneça coleções persistentes e imutáveis (immutable.js)
 	* Outras libs: Immer, Immutability-helper, Seamless-immutable
@@ -257,25 +257,25 @@ Você consegue usando o shouldComponentUpdate ou React.PureComponent.
 
 #### Agora observe o trecho de código...
 
-´´´shell
+```shell
 	const x = { foo: 'bar' };
 	const y = x;
 	y.foo = 'baz';
 	x === y; // true
 
 O valor de x foi modificado pois a estrutura é mutável.
-´´´
+```
 
 Teria que então ser utilizado um trecho imutável ...
 
-´´´shell
+```shell
 	const SomeRecord = Immutable.Record({ foo: null });
 	const x = new SomeRecord({ foo: 'bar' });
 	const y = x.set('foo', 'baz');
 	const z = x.set('foo', 'bar');
 	x === y; // false
 	x === z; // true
-´´´
+```
 
 ### Immutabilidade e Redux
 A imutabilidade é pré requisito no Redux
@@ -310,20 +310,20 @@ redux-thunk e redux-saga
 ##### Redux Thunk
 Um thunk é uma função que chama outra função
 
-´´´shell
+```shell
 	function some_function() {
 		// faça algo aqui
 		return function thunk() {
 			// faça algo pensando depois
 		}
 	}
-´´´
+```
 
 ###### Instalação
 
-´´´shell
+```shell
 	yarn add redux-thunk
-´´´
+```
 
 
 ##### Entendendo Middlewares
@@ -369,16 +369,16 @@ Jest, React-testing-Library, Shallow, Enzyme, Chai, Mocha, Selenium, Puppeteer
 ### Teste de função
 Usa-se o Jest (que é baseado no Jasmine)
 
-´´´shell
+```shell
 	// soma.js
 	function soma (a, b) {
 		return a + b;
 	}
-´´´ 
+```
 
 Teste usando jest ...
 
-´´´shell
+```shell
 	import { soma } from './soma';
 
 	describe ('testando função soma', () => {
@@ -387,23 +387,23 @@ Teste usando jest ...
 			expect(res).toBe(3);
 		})
 	})
-´´´
+```
 
 ### Teste de componente
 Usa-se o react-testing-library
 
 * Instalação
 
-´´´shell
+```shell
 	yarn add --dev @testing-library/react
 
 	# para extensoes de comparacao no jest
 	yarn add --dev @testing-library/jest-dom/extend-expect
-´´´
+```
 
 Componente a ser usado: Basic
 
-´´´shell
+```shell
 	import react from 'react';
 	
 	const Basic = (props) => (
@@ -411,11 +411,11 @@ Componente a ser usado: Basic
 	)
 
 	export default Basic;
-´´´
+```
 
 Realizando o teste ...
 
-´´´shell
+```shell
 	import React from 'react';
 	import Basic from './Basic';
 	import { render } from '@testing-library/react'
@@ -427,7 +427,7 @@ Realizando o teste ...
 			expect(baseElement).toHaveTextContent('Meu nome é Lilith');
 		})
 	})
-´´´
+```
 
 ### Teste com Redux
 Teste a ser feito: Counter
@@ -443,9 +443,9 @@ Jest-cucumber, Chai
 
 #### Instalação do Jest-cucumber
 
-´´´shell
+```shell
 	yarn add --dev jest-cucumber
-´´´
+```
 
 ##### Sintaxe Gherkin (usado no Jest-cucumber)
 Sintaxe de steps para definir cenários. Descreve cada funcionalidade por feature (caso de uso)
@@ -465,13 +465,13 @@ Depuração é o processo de encontrar e reduzir defeitos em um software
 
 ### Tratamento de funções
 
-´´´shell
+```shell
 	export const some = (a, b) => a + b;
-´´´
+```
 
 Como tratar essa função ...
 
-´´´shell
+```shell
 	export const somaSegura = (a, b) => {
 		if (typeof a === number && typeoff b === number) {
 			return a + b;
@@ -480,11 +480,11 @@ Como tratar essa função ...
 			return -1;
 		}
 	}
-´´´
+```
 
 ### Tratamento em forms
 
-´´´shell
+```shell
 	<form onSubmit={this.handleSubmit} style={{display: 'flex', flexDirection: 'column'}}>
 		<label>
 			Nome:
@@ -492,11 +492,11 @@ Como tratar essa função ...
 		</label>
 		<input type="submit" value="Submit" />
 	</form>
-´´´
+```
 
 ### Tratamento em retorno de APIs
 
-´´´shell
+```shell
 	export const fetchCientistas = () => {
 		fetch('https://react-intermediario-dio.free.beeceptor.com/cientistas-brasileiras')
 			.then(response => response.json())
@@ -507,11 +507,11 @@ Como tratar essa função ...
 				exibirMensagem(error.code);
 			});
 	}
-´´´
+```
 
 Tratando um código de servidor ...
 
-´´´shell
+```shell
 	function exibirMensagem(codigo) {
 		if(codigo === 401) {
 			alert ('Faça login para continuar')
@@ -523,12 +523,12 @@ Tratando um código de servidor ...
 			alert('Erro interno de servidor')
 		}
 	}
-´´´
+```
 
 ### Tratamento em componentes
 Em JS usamos PropTypes, e podemos usar linguagens tipadas como TypeScript, definindo interfaces.
 
-´´´shell
+```shell
 	import React from 'react';
 	import PropTypes from 'prop-types';
 
@@ -539,4 +539,4 @@ Em JS usamos PropTypes, e podemos usar linguagens tipadas como TypeScript, defin
 	Basic.propTypes = {
 		name: PropTypes.string
 	}
-´´´
+```
