@@ -8,7 +8,7 @@ Repositório para inclusão de desafios a serem realizados no Bootcamp: Impulso 
 1. Desafio de Projeto: Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso :white_check_mark:
 2. Desafio de Projeto: Recriando a Interface do Netflix :white_check_mark:
 3. Desafio de Código: Desafios Impulso Iniciante - JavaScript :white_check_mark:
-4. Desafio de Código: Desafios Impulso Intermediario - JavaScript
+4. Desafio de Código: Desafios Impulso Intermediario - JavaScript :white_check_mark:
 5. Desafio de Projeto: Criando o front-end com ReactJs
 6. Desafio de Código: Desafios Impulso Iniciante - C#
 7. Desafio de Projeto: Abstraindo um jogo de RPG Usando Orientação a Objetos com C#
@@ -33,9 +33,9 @@ E de anotações e comentários de aulas realizadas.
 * Manipulando a D.O.M. com JavaScript :white_check_mark:
 * Resolvendo Desafios de Código em Javascript :white_check_mark:
 * Introdução ao ReactJS :white_check_mark:
-* Desenvolvimento de aplicações para internet com ReactJS
-* Práticas avançadas em projetos com ReactJS
-* Introdução a Redux com ReactJS
+* Desenvolvimento de aplicações para internet com ReactJS :white_check_mark:
+* Práticas avançadas em projetos com ReactJS :white_check_mark:
+* Introdução a Redux com ReactJS 
 * Trabalhando com States e Effects no ReactJS
 * Introdução aos React Hooks
 * SQL Server - Criando suas primeiras consultas
