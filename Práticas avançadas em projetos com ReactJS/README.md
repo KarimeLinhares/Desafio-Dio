@@ -7,6 +7,9 @@
 3. Atualização
 4. Desmontagem
 
+<p align="center">
+  <img width="600" src="images/ciclodevida.png">
+ </p>
 
 ```shell
 
