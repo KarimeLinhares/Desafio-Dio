@@ -27,6 +27,21 @@
 
 2. Arquitetura flux
 
+* Como era a arquitetura MVC
+<p align="center">
+  <img width="600" src="images/arquiteturaflux.png">
+ </p>
+ 
+ * Arquitetura flux
+ <p align="center">
+  <img width="600" src="images/arquiteturaflux2.png">
+ </p>
+ 
+ * Arquitetura redux
+ <p align="center">
+  <img width="600" src="images/arquiteturaredux.png">
+ </p>
+
 ## Os três princípios
 
 1. Uma única fonte de verdade
