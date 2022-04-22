@@ -2,15 +2,13 @@
 
 ## Conceitos
 
-1. React
-A JavaScript library for building user interfaces.
+1. React: A JavaScript library for building user interfaces.
 
 * Declarativo
 * Baseado em componentes
 * Aprenda uma vez, escreva em qualquer lugar
 
-2. Redux
-A predictable state container for JS apps
+2. Redux: A predictable state container for JS apps
 
 * State containers são um bloco (container) da sua aplicação que armazena um estado de forma centralizada, que pode ser lido por outros blocos da aplicação.
 * Previsível
@@ -212,7 +210,7 @@ const counterReducer = createreducer(initialState, (builder) => {
 })
 
 
-*CreatAction
+* createAction
 
 import { creatAction } from '@reduxjs/toolkit'
 
