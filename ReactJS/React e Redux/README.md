@@ -299,3 +299,111 @@ Contras
 * State containers resolvem problemas não triviais
 * Flexível para resolver vários problemas, mas talvez não o seu
 * Propósito do redux é muito diferente do react, e pode ser usado em outras soluções.
+
+
+# Developer Experience
+
+## Redux Devtools
+* window.__REDUX_DEVTOOLS_EXTENSION__ (google chrome)
+* redux-detools-extension (store.js)
+
+```shell
+# NPM
+
+$ npm install --save redux-devtools-extension
+
+# YARN
+
+$ yarn add redux-devtools-extension
+
+------
+chamando a lib
+
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+const store = createStore(reducer, composeWithDevTools(
+	applyMiddleware(...middleware),
+	// other store enhancers if any
+));
+```
+* @reduxjs/tollkit já traz ele implementado e habilitado por padrão
+
+## Melhores práticas
+
+* Redux Style Guide
+
+Princípios essenciais
+1. Do not Mutate State 
+2. Reducers Must Not Have Side Effects 
+3. Do Not Put Non-Serializable Values in State or Actions 
+4. Only One Redux Store Per App 
+
+## Ducks pattern
+To me, it makes more sense for these pieces to be bundled together in an isolated module that is self contained, and can even be packaged easily into a library.
+
+* Must export default a function called reducer()
+* Must export its action creators as functions
+* Must have action types in the form npm-module-or-app/reducer/ACTION_TYPE
+* May export its action types as UPPER_SNAKE_CASE, if an external reducer needs to listen for them, or if it is a published reusable library
+
+```shell
+exemplo
+
+const LOAD = 'my-app/widgets/LOAD';
+const CREATE = 'my-app/widgets/CREATE';
+const UPDATE = 'my-app/widgets/UPDATE';
+const REMOVE = 'my-app/widgets/REMOVE';
+
+export default function reducer(state = {}, action = {}) {
+	switch (action.type) {
+		// do reducer stuff
+		default: return state;
+	}
+}
+
+export function loadWidgets() {
+	return { type: LOAD };
+}
+
+export function createWidget(widget) {
+	return { type: CREATE, widget };
+}
+
+export function updateWidget(widget) {
+	return { type: UPDATE, widget };
+}
+
+export function removeWidget(widget) {
+	return { type: REMOVE, widget };
+}
+
+export function getWidget () {
+	return dispatch => get('/widget').then(widget => dispatch(updateWidget(widget)))
+}
+```
+## Higher-Order-Reducers
+
+```shell
+const withPagination = (section, reducer) => (state, action) => {
+	switch(action.type) {
+		case `${section}_GO_NEXT_PAGE`: {
+			return { ...state, page: state.page + 1 }
+		}
+
+		// other actions ...
+
+		default: {
+			return reducer(state, action);
+		}
+	}
+};
+
+export default createStore
+	combineReducers({
+		users: withPagination('USERS', users),
+		articles: withPagination('ARTICLES', articles),
+		login,
+	})
+);
+```
