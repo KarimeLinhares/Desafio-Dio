@@ -64,7 +64,7 @@ E de anotações e comentários de aulas realizadas.
  
  ## Desafio de Projeto: Recriando a Interface do Netflix 
  <p align="center">
-  <img width="600" src="Projeto 1 - Netflix/img/site1.png">
+  <img width="600" src="Projetos/Projeto 1 - Netflix/img/site1.png">
  </p>
  
 
